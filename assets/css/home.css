@@ -71,17 +71,12 @@ a{
 .navBtn{       
     border: none;
     border-radius: 5px;
-    background-color:transparent;
-    color:var(--secondery-color);
+    background-color:var(--primary-color);
 }
 .navBtn a{ 
+    color:var(--white-color);
     padding: 10px;
     display: inline-block;
-}
-.navBtn a:hover{    
-    background-color:var(--primary-color);
-    color: #fff;
-    border-radius: 5px;
 }
 .hero-part{    
     padding: 130px 0;
@@ -110,4 +105,15 @@ a{
     height: 75px;
     flex-shrink: 0;
     margin: 40px 0 20px;
+    padding: 0 10px;
+}
+.hero-form button{
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    cursor: pointer;
 }
